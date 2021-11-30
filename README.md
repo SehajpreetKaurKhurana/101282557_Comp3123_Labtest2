@@ -37,13 +37,13 @@ For example if you want more data to be dispalyed you can add the following code
 `<div className="weatherInfo">Sunrise {weather.sys.sunrise} </div>`<br/>
 ` <div className="weatherInfo">Sunset {weather.sys.sunset} </div>`<br/>
 
-If you add these things instead of min max and wind speed the oupt would be like this <br/>
+If you add these things instead of min max and wind speed the output would be like this <br/>
 ![image](https://user-images.githubusercontent.com/78088098/144144101-b04b135d-36f1-468d-9c19-b17065511a77.png)
 
 So it depends on your choice to add data .
 
 <br/>
-Other thing to be noticed is the background color .You can see the background changes as temp changes. When temp is warm background will be yellow and when greater than 16 degree celsius  it will be blue.
+Other thing to notice is the background color .You can see the background changes as temp changes. When temp is warm background will be yellow and when greater than 16 degree celsius  it will be blue.
 
 
 <br/>
