@@ -32,26 +32,35 @@ The data displayed here shows the -
 City name , Country name , Temp , Main , icon , Fells like , Min and Max temp and Wind speed .  <br/>
 More things can be added but for display purpose and for UI i have added these all . <br/>
 For example if you want more data to be dispalyed you can add the following code- 
-`<div className="weatherInfo">pressure {(weather.main.pressure)} </div> `
-`<div className="weatherInfo">Humidity {(weather.main.humidity)} </div>`
+`<div className="weatherInfo">Pressure {(weather.main.pressure)} </div> ` <br/>
+`<div className="weatherInfo">Humidity {(weather.main.humidity)} </div>`<br/>
+`<div className="weatherInfo">Sunrise {weather.sys.sunrise} </div>`<br/>
+` <div className="weatherInfo">Sunset {weather.sys.sunset} </div>`<br/>
+
+If you add these things instead of min max and wind speed the oupt would be like this <br/>
+![image](https://user-images.githubusercontent.com/78088098/144144101-b04b135d-36f1-468d-9c19-b17065511a77.png)
+
+So it depends on your choice to add data .
+
+<br/>
+Other thing to be noticed is the background color .You can see the background changes as temp changes. When temp is warm background will be yellow and when greater than 16 degree celsius  it will be blue.
 
 
-
-
-You can see there i s a search bar . Enter the city of which you want to see the weather.  <br/>
-
-
-
-This screenshot shows the data <br/>
+<br/>
 Data is being fetched by - http://api.openweathermap.org/data/2.5/weather?q={city}&appid={{APIkey}} <br/>
 Date and Day are not in the responses and are being displayed by writing a function whaich can be seen in App.js .<br/>
 Icon is also dynamic and changes according to the value of the icon in response. 
 
 ## Postman Screenshots
+![Labtest2FullStackPostmanSS1](https://user-images.githubusercontent.com/78088098/144144379-c0b2dcde-8efd-49e8-b930-a8c7bf5aeced.JPG)
+![Labtest2FullStackPostmanSS2](https://user-images.githubusercontent.com/78088098/144144387-fb031e04-5cb0-4952-8361-b15a29778480.JPG)
+![Labtest2FullStackPostmanSS3](https://user-images.githubusercontent.com/78088098/144144397-7b6b76c9-a0a8-4cf9-ae6e-c8c7fee46c8b.JPG)
+![Labtest2FullStackPostmanSS4](https://user-images.githubusercontent.com/78088098/144144405-418667e6-22e5-435b-b2b4-6d29983a6e86.JPG)
+
 
 ## Test
 You can check the response i.e the data fetched in the console . 
 
 ## Author
 Sehajpreet Kaur Khurana
-82557_Comp3123_Labtest2
+101282557_Comp3123_Labtest2
