@@ -21,7 +21,7 @@ Then  use command `npm start` to run the app <br/>
 The whole project was earlier connected to git repo
 https://github.com/SehajpreetKaurKhurana/101282557_comp3123_labtes2.git
 You can also access that , but there was some error uploading the changes to that repo , so This repo was created with the correct files before the lab submission deadline.
-In that repo you will see App only with a button displaying Toronto weather. But now this new repo with new app is dynamic and has a new feature Search By city where you can enter the city name and find their weather.
+In that repo you will see App only with a button displaying Toronto weather. But as the instructions were given at end that we also need a search bar this new repo was made with new app .This new repo with new app is dynamic and has a new feature Search By city where you can enter the city name and find their weather :) 
 ## Screenshots of the App 
 ![Labtest2FullStackSS3](https://user-images.githubusercontent.com/78088098/144143246-b97ab0d3-947e-422b-8b87-c8bc104da2e9.JPG)
 This is the first page  of the App.<br/>
