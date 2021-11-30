@@ -12,7 +12,11 @@ API Key  is written in the App.js file.<br/>
 All the css is in index.css. <br/>
 ## Start the project 
 
-To start the project create a react project and then copy the App.js , index.css and index.js files.
+
+To start the project create a react project using command `npx create-react-app appname`
+and then copy the App.js , index.css and index.js files. <br/>
+These are the three files this whole project is based on . <br/>
+Then  use command `npm start` to run the app 
 
 ## Screenshots of the App 
 
