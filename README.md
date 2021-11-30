@@ -32,8 +32,8 @@ The data displayed here shows the -
 City name , Country name , Temp , Main , icon , Fells like , Min and Max temp and Wind speed .  <br/>
 More things can be added but for display purpose and for UI i have added these all . <br/>
 For example if you want more data to be dispalyed you can add the following code- 
-<div className="weatherInfo">pressure {(weather.main.pressure)} </div> 
-<div className="weatherInfo">Humidity {(weather.main.humidity)} </div>
+`<div className="weatherInfo">pressure {(weather.main.pressure)} </div> `
+`<div className="weatherInfo">Humidity {(weather.main.humidity)} </div>`
 
 
 
