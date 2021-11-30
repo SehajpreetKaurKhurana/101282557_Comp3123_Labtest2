@@ -16,8 +16,12 @@ All the css is in index.css. <br/>
 To start the project create a react project using command `npx create-react-app appname`
 and then copy the App.js , index.css and index.js files. <br/>
 These are the three files this whole project is based on . <br/>
-Then  use command `npm start` to run the app 
+Then  use command `npm start` to run the app <br/>
 
+The whole project was earlier connected to git repo
+https://github.com/SehajpreetKaurKhurana/101282557_comp3123_labtes2.git
+You can also access that , but there was some error uploading the changes to that repo , so This repo was created with the correct files before the lab submission deadline.
+In that repo you will see App only with a button displaying Toronto weather. But now this new repo with new app is dynamic and has a new feature Search By city where you can enter the city name and find their weather.
 ## Screenshots of the App 
 ![Labtest2FullStackSS3](https://user-images.githubusercontent.com/78088098/144143246-b97ab0d3-947e-422b-8b87-c8bc104da2e9.JPG)
 This is the first page  of the App.<br/>
